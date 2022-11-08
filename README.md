@@ -3,7 +3,7 @@ Home assessment - 08/11/22.
 
 **The assessment:**
 Given timestamp TS, find the latest block prior to TS
-(using API calls on https://blockchain.info/block-height/***?format=json)
+(using API calls on https://blockchain.info by sending block height param)
 
 **Workflow:**
 First, I tried to implement the assessment using regular binary search.
