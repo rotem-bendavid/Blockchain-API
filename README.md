@@ -20,5 +20,5 @@ First it will find that the right range to continue searching is 600000 to 70000
 Code is still slow.
 To make it even more efficient, it is possible to add calculations using the average time between blocks in seconds (can be found here - https://blockchain.info/q/interval).
 It is possible to use this data to calculate a small range in which our TS is in, and then use other searching methods as the methods I implemented.
-Another improvement can be made is exporting the JSON in a more stable way than calling data in the first place ([0]).
-Last but not least, an important improvement that can make the program much more efficient (which I thought of only in the morning so didn't have chance to implement) is using asynchronous calls to the API to the 0-9 options for each digit.
+Another improvement can be made is exporting the TS from JSON file in a more stable way than calling data in the first place ([0]).
+Last but not least, an important improvement that can make the program much more efficient (which I thought of only in the morning, so didn't have a chance to implement) is using asynchronous calls to the API to all the 0-9 options for each digit.
